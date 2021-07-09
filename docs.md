@@ -12,4 +12,15 @@
 
 >     npm run flow init
 
-		
+5. Install VS Code eslint extension 
+
+6. 	Install eslint npm package globally
+
+>     npm i -g eslinteslint
+
+>     eslint --init
+
+![alt text](./images/eslintConfig.png)
+
+
+
