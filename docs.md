@@ -16,11 +16,12 @@
 
 6. 	Install eslint npm package globally
 
->     npm i -g eslinteslint
+>     npm i -g eslint 
 
 >     eslint --init
 
 ![alt text](./images/eslintConfig.png)
 
+7. 
 
 
