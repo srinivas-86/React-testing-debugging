@@ -37,4 +37,6 @@
 
     >   "coverage" : "npm run test -- --coverage --watchAll=false"
 
+11. Eslint - Place the cursor at problem place and press ctrl + .
+
 
