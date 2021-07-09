@@ -29,24 +29,24 @@
 
 8. Snapshot testing with Jest 
 
-    >   npm i react-test-renderer
+    >     npm i react-test-renderer
 
 9. Organize the code with describe()
 
 10. Code coverage test with Jest
 
-    >   "coverage" : "npm run test -- --coverage --watchAll=false"
+    >     "coverage" : "npm run test -- --coverage --watchAll=false"
 
 11. Eslint - Place the cursor at problem place and press ctrl + .
 
 12. Fixing the Static type check issue with Flow Js
     
     Add the following code to top line of the js files
-    >   // @flow
+    >     // @flow
 
     Add the following line to the package.json in the script session
-    >   "flow": "flow" 
+    >     "flow": "flow" 
 
     Run flow test in the terminal
-    >   npm run flow 
+    >     npm run flow 
 
