@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 // @flow
 
 import React, { Component } from 'react';
@@ -8,11 +9,12 @@ import courses from '../data/courses.json';
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {courses};
+    this.state = { courses };
   }
 
   render() {
     return (
+      // eslint-disable-next-line react/jsx-filename-extension
       <div>
         <div className="navbar-fixed">
           <nav className="blue lighten-2">
@@ -22,7 +24,7 @@ export default class App extends Component {
           </nav>
         </div>
         <div>
-            <Grid items={this.state.courses}/>
+          <Grid items={this.state.courses} />
         </div>
       </div>
     );

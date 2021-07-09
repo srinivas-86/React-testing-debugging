@@ -1,7 +1,19 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Single = ({item}) => {
+type Item = {
+  item: {
+    id: Number,
+    title: String,
+    category: String,
+    description: String,
+    link: String,
+    release_date: String,
+    views: String,
+    category: String,
+  }
+}
+
+const Single = ({item} : Item) => {
   return (
     <li className="col l6 s12">
       <div className="card">
@@ -27,10 +39,6 @@ const Single = ({item}) => {
       <br/>
     </li>
   );
-};
-
-Single.propTypes = {
-  item: PropTypes.object.isRequired
 };
 
 export default Single;
