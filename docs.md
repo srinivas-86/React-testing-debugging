@@ -39,4 +39,14 @@
 
 11. Eslint - Place the cursor at problem place and press ctrl + .
 
+12. Fixing the Static type check issue with Flow Js
+    
+    Add the following code to top line of the js files
+    >   // @flow
+
+    Add the following line to the package.json in the script session
+    >   "flow": "flow" 
+
+    Run flow test in the terminal
+    >   npm run flow 
 
